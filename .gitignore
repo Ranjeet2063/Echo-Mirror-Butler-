@@ -46,8 +46,6 @@ app.*.map.json
 
 # Sensitive files - API keys, secrets, constants
 **/local.properties
-**/.env
-**/.env.*
 !**/.env.example
 **/*secret*
 **/config/passwords.yaml
@@ -65,3 +63,4 @@ build/
 *.iml
 *.lock
 node_modules/
+config.bat
